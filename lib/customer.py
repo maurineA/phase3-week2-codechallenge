@@ -13,3 +13,9 @@ class Customer:
     
     def full_name(self):
         return f"{self.given_name} {self.family_name}"
+
+customer1 = Customer("John", "Doe")
+customer2 = Customer("Jane", "Smith")
+
+print(customer1.full_name()) 
+print(customer2.full_name()) 
