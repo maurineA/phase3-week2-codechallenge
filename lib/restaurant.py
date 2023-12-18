@@ -6,6 +6,12 @@ class Restaurant:
 
     def name(self):
         return self.name
+
+    @classmethod
+    def reviews(self):
+        return self.reviews
+    def customers(self):
+        return self.customers
     
 restaurant1 = Restaurant("Cheka")
 restaurant2 = Restaurant("Goodies")
