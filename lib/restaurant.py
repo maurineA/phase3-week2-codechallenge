@@ -16,5 +16,6 @@ class Restaurant:
 restaurant1 = Restaurant("Cheka")
 restaurant2 = Restaurant("Goodies")
 
+
 print(restaurant1.reviews())
 print(restaurant2.customers())
