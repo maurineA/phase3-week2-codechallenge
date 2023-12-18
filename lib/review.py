@@ -18,6 +18,15 @@ class Review:
     def customer(self):
         return self.customer
     
+    def restaurant(self):
+        return self.restaurant
+    
+review1 = Review(customer1, restaurant1, 4)
+review2 = Review(customer2, restaurant2, 5)
+
+print(restaurant1.reviews())
+print(restaurant2.customers())
+    
     
 
 
