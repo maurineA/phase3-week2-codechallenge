@@ -44,7 +44,7 @@ Is a python challenges testing the relation between restaurants, customers and r
 
 # Support and Contact Details
 
-Incase of any query, need for collaboration or issues with this code, feel free to reach me at maurine.wambui@student.moringaschool.com
+Incase of any queries, need for collaboration or issues with this code, feel free to reach me at maurine.wambui@student.moringaschool.com
 
 # License
 
