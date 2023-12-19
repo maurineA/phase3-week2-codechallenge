@@ -1,5 +1,5 @@
 from customer import customer1, customer2
-from restaurant import restaurant1, restaurant2
+from restaurant import restaurant1
 
 class Review:
     reviews = []
@@ -15,7 +15,7 @@ class Review:
     
     @classmethod
     def all(clses):
-        return clses.all
+        return clses.reviews
 
     
     def customer(self):
@@ -24,11 +24,17 @@ class Review:
     def restaurant(self):
         return self.restaurant
     
-review1 = Review(customer1, restaurant1, 4)
-review2 = Review(customer2, restaurant2, 5)
+# review1 = Review(customer1, restaurant1, 4)
+# review2 = Review(customer2, restaurant2, 5)
 
-print(restaurant1.reviews())
-print(restaurant2.customers())
+# print(restaurant1.reviews())
+# print(restaurant2.customers())
+    
+customer1 = Customer("John", "Doe")
+restaurant1 = Restaurant("Cheka")
+
+review1 = Review(customer1, restaurant1, 4)
+print(review1.get_rating())
     
     
 

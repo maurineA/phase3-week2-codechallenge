@@ -10,7 +10,7 @@ class Restaurant:
         Restaurant.restaurants.append(self)
         self.reviews = []
 
-    def get_name(self):
+    def name(self):
         return self.name
 
     @classmethod
@@ -37,7 +37,7 @@ restaurant1 = Restaurant("Cheka")
 restaurant2 = Restaurant("Bistro")
 
 # Test
-print(restaurant1.get_name())  # Output: Cheka
+print(restaurant1.name())  
 
 # Test adding reviews
 customer1 = Customer("John", "Doe")
