@@ -1,3 +1,6 @@
+from customer import customer1, customer2
+from restaurant import restaurant1, restaurant2
+
 class Review:
     reviews = []
 
