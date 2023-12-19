@@ -29,7 +29,7 @@ Is a python challenges testing the relation between restaurants, customers and r
 # Installation Process
 
 <ul>
-<li>git clone https://github.com/maurineA/phase3-week1-codechallenge</li>
+<li>git clone https://github.com/maurineA/phase3-week2-codechallenge</li>
 <li>open the directory on visual studio</li>
 <li>Create the python environment</li>
 <li>install the pipenv</li>
