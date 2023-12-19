@@ -10,7 +10,7 @@ class Restaurant:
         Restaurant.restaurants.append(self)
         self.reviews = []
 
-    def name(self):
+    def get_name(self):
         return self.name
 
     @classmethod
