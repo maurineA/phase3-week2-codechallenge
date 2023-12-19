@@ -26,6 +26,16 @@ Is a python challenges testing the relation between restaurants, customers and r
 <li>Access to the internet.</li>
 </ul>
 
+# Installation Process
+
+<ul>
+<li>git clone https://github.com/maurineA/phase3-week1-codechallenge</li>
+<li>open the directory on visual studio</li>
+<li>Create the python environment</li>
+<li>install the pipenv</li>
+<li>activate the shell</li>
+</ul>
+
 
 
   
