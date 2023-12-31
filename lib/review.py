@@ -1,42 +1,24 @@
-from customer import customer1, customer2
-from restaurant import restaurant1
-
 class Review:
-    reviews = []
+    _all_reviews = []
 
     def __init__(self, customer, restaurant, rating):
-        self.customer = customer
-        self.restaurant = restaurant
-        self.rating = rating
-        Review.reviews.append(self)
+        self._customer = customer
+        self._restaurant = restaurant
+        self._rating = rating
+        Review._all_reviews.append(self)
+        restaurant._reviews.append(self)  
+        customer._reviews.append(self)   
 
+    @property
     def rating(self):
-        return self.rating
-    
+        return self._rating
+
     @classmethod
-    def all(clses):
-        return clses.reviews
+    def all(cls):
+        return cls._all_reviews
 
-    
     def customer(self):
-        return self.customer
-    
+        return self._customer
+
     def restaurant(self):
-        return self.restaurant
-    
-
-
-
-    
-customer1 = Customer("John", "Doe")
-restaurant1 = Restaurant("Cheka")
-
-review1 = Review(customer1, restaurant1, 4)
-print(review1.get_rating())
-print(restaurant1.reviews())
-
-    
-    
-
-
-
+        return self._restaurant
